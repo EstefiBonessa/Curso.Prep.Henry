@@ -32,7 +32,7 @@ function map(array, cb) {
 var arreglo = array.map(function(elemento) {
   return cb(elemento);
 });
-  return arreglo;
+  return arreglo; 
 }
 
 
